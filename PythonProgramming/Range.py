@@ -3,7 +3,7 @@
 # print(a[2])
 # a1 = range(2, 5)
 # print(a1[1])
-#
+# #
 # a1 = range(2,5)
 # print(a1[1])
 #
@@ -12,10 +12,10 @@
 #     print(i)
 #
 #
-# a = range(15, 2, -1)
-#
-# for i in a:
-#     print(i)
+a = range(15, 2, -1)
+
+for i in a:
+    print(i)
 #
 # for attempt in range(3):
 #     pin = input("Enter the pin: ")
@@ -42,7 +42,7 @@
 
 # accessing of the enumerate values
 
-a = ['God', 'is', 'Great']
-b = enumerate(a)
-nxt_val = next(b)
-print(nxt_val)
+# a = ['God', 'is', 'Great']
+# b = enumerate(a)
+# nxt_val = next(b)
+# print(nxt_val)
