@@ -2,22 +2,31 @@
 # what component they have developed they do the testing for it before integrating it to the other modules
 # get defects earlier
 # Pytest in python , junit and nunit - java
-# pytest is used ny developers and testers
+# pytest is used by developers and testers
 
-# test discovery - rules used create the pytest tests
+#test discovery - rules used to create the pytest tests
+#files should start with "test"
+#functions also should start with "test"
 
-# files should start with
-# functions should start with atest
+# -v verbose -shows detailed output
+#-s show print request
 
-# test case 1
-def test_case1():
-    print("Test case 1 is executed")
+import pytest
+#testcase 1
+def testcase1():
+    print("Testcase 1 is executed")
 
-def test_case2():
-    print("Test case 2 is executed")
+#testcase 2
+def testcase2():
+    print("Testcase 2 is executed")
 
+#testcase 3
 def test_case3():
-    print("Test case 3 is executed")
+    print("Testcase 3 is executed")
 
-def openBrowser():
-    print("Open Browser")
+#testcase 4
+def openbrowser():
+    print("Opening the browser")
+
+#pytest .\Test_Discovery.py to run in cmd line
+#pytest .\Test_Discovery.py -v -s --html=filename.html ---> to generate report
